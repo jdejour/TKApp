@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/list_buildings_name"
+        android:layout_width="246dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="-13dp"
+        android:layout_marginRight="-13dp"
+        android:gravity="right"
+        android:text="@string/buildings_name"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/list_buildings_photo"
+        android:layout_width="144dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        app:srcCompat="@color/dkgreyAlumni" />
+</RelativeLayout>

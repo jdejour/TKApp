@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueAlumni">
+
+    <TextView
+        android:id="@+id/text_alumni_title"
+        android:layout_width="354dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="300dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/alumni_title"
+        android:textAllCaps="true"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/text_alumni_quote"
+        android:layout_width="349dp"
+        android:layout_height="269dp"
+        android:gravity="clip_horizontal|clip_vertical"
+        android:text="@string/alumni_quote"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_alumni_title"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/text_alumni_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="end"
+        android:text="@string/alumni_name"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_alumni_quote" />
+
+    <TextView
+        android:id="@+id/text_profile_class_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/alumni_class"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_alumni_name"
+        app:layout_constraintVertical_bias="0.041" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005DA6</color>
+    <color name="colorPrimaryDark">#0C436A</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blueTAMUCC">#0067C5</color>
+    <color name="greenTAMUCC">#00945E</color>
+    <color name="silverTAMUCC">#9EA2A4</color>
+    <color name="navyTAMUCC">#002940</color>
+    <color name="ltgreyTAMUCC">#CFC9C4</color>
+    <color name="dkgreyTAMUCC">#63666A</color>
+    <color name="tanTAMUCC">#ECBA93</color>
+    <color name="blueAlumni">#005DA6</color>
+    <color name="greenAlumni">#00945E</color>
+    <color name="navyAlumni">#0C436A</color>
+    <color name="ltgreyAlumni">#D9D8D6</color>
+    <color name="dkgreyAlumni">#76777A</color>
+</resources>

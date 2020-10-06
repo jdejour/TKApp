@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueAlumni">
+
+    <TextView
+        android:id="@+id/text_building_title"
+        android:layout_width="354dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="300dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/buildings_title"
+        android:textAllCaps="true"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_building_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/button_buildings_name1"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/duganstadiumbutton"
+                android:text="@string/buildings_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_buildings_name2"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/duganwellnessbutton"
+                android:text="@string/buildings_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_buildings_name3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/furgusonengbutton"
+                android:text="@string/buildings_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_buildings_name4"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/garciaplazabutton"
+                android:text="@string/buildings_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_buildings_name5"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/leehousebutton"
+                android:text="@string/buildings_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_buildings_name6"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/leeplazabutton"
+                android:text="@string/buildings_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_buildings_name7"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/oconnorbutton"
+                android:text="@string/buildings_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--ListView
+        android:id="@+id/list_buildings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_building_title"
+        app:layout_constraintVertical_bias="0.03">
+    </ListView>-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

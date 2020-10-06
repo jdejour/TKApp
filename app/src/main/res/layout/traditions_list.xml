@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/list_traditions_name"
+        android:layout_width="246dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="-13dp"
+        android:layout_marginRight="-13dp"
+        android:gravity="right"
+        android:text="@string/traditions_name"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/list_traditions_photo"
+        android:layout_width="144dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="-157dp"
+        android:layout_marginRight="-157dp"
+        android:layout_toStartOf="@+id/list_building_name"
+        android:layout_toLeftOf="@+id/list_traditions_name"
+        app:srcCompat="@color/dkgreyAlumni" />
+
+</RelativeLayout>

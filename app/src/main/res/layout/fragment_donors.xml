@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueAlumni">
+
+    <TextView
+        android:id="@+id/text_donors_title"
+        android:layout_width="354dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="300dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/donors_title"
+        android:textAllCaps="true"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_donors_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_donor_name1"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name3"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name4"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name5"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name6"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name7"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name8"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name9"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_donor_name10"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/navyAlumni"
+                android:text="@string/donors_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<ListView
+        android:id="@+id/list_donors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_donors_title"
+        app:layout_constraintVertical_bias="0.03">
+    </ListView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

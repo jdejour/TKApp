@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@color/greenAlumni"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_username"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/email_tag"
+            android:textColor="@color/ltgreyAlumni"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/montserrat" />
+
+        <EditText
+            android:id="@+id/editText_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="12"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/ltgreyAlumni"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/montserrat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_password"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/password_tag"
+            android:textColor="@color/ltgreyAlumni"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/montserrat" />
+
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/ltgreyAlumni"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/montserrat" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="73dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:background="@color/ltgreyAlumni"
+            android:text="Login"
+            android:textColor="@color/blueAlumni"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/montserrat" />
+
+    </LinearLayout>
+
+</LinearLayout>

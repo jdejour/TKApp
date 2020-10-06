@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueAlumni">
+
+    <TextView
+        android:id="@+id/text_traditions_title"
+        android:layout_width="354dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="300dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/traditions_title"
+        android:textAllCaps="true"
+        android:textColor="@color/ltgreyAlumni"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_traditions_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/button_tradition_name1"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/anchorsaweighbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name2"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/artmuseumbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/artshowbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name4"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/athleticsbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name5"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/bigeventbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name6"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/blockpartybutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name7"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/bluesdaytuesdaybutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name8"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/catalleybutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name9"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/dancemarathonbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name10"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/deependbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name11"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/fightsongbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name12"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/finalsfootbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name13"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/izzybutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name14"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/izzysfiestabutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name15"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/latenightbreakfastbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name16"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/lightingofibutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name17"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/mariachibutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name18"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/momentumwavebutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name19"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/organizationbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name20"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/paradeofnationsbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name21"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/pacbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name22"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/patiojambutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name23"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/presidentspicnicbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name24"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/ringwishbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name25"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/shakaswooshbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name26"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/theaterbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name27"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/trailbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/button_tradition_name28"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/universitybeachbutton"
+                android:text="@string/traditions_name"
+                android:textColor="@color/ltgreyAlumni"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<ListView
+        android:id="@+id/list_traditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_traditions_title"
+        app:layout_constraintVertical_bias="0.03">
+    </ListView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

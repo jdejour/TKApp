@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.traditionkeeper.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.traditionkeeper.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_traditions"
+        android:name="com.example.traditionkeeper.ui.traditions.traditions.TraditionsFragment"
+        android:label="@string/menu_traditions"
+        tools:layout="@layout/fragment_traditions" />
+
+    <fragment
+        android:id="@+id/nav_prizes"
+        android:name="com.example.traditionkeeper.ui.prizes.PrizesFragment"
+        android:label="@string/menu_prizes"
+        tools:layout="@layout/fragment_prizes" />
+
+    <fragment
+        android:id="@+id/nav_buildings"
+        android:name="com.example.traditionkeeper.ui.buildings.BuildingsFragment"
+        android:label="@string/menu_buildings"
+        tools:layout="@layout/fragment_buildings" />
+
+    <fragment
+        android:id="@+id/nav_alumni"
+        android:name="com.example.traditionkeeper.ui.alumni.alumni.AlumniFragment"
+        android:label="@string/menu_alumni"
+        tools:layout="@layout/fragment_alumni" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.traditionkeeper.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.traditionkeeper.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.traditionkeeper.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

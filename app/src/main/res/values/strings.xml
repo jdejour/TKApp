@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">TraditionKeeper</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+
+    <string name="menu_history">History</string>
+    <string name="menu_traditions">Traditions</string>
+    <string name="menu_prizes">Prizes</string>
+    <string name="menu_buildings">Buildings</string>
+    <string name="menu_donors">Donors</string>
+    <string name="menu_alumni">Alumni</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="islander_traditions_keeper_title">Islander Traditions Keeper</string>
+    <string name="tamucc_full">Texas A&amp;M University - Corpus Christi</string>
+    <string name="tamucc_abv">TAMU-CC</string>
+    <string name="tamucc_year">Since 1947</string>
+    <string name="pride_tradition">Pride &amp; Tradition</string>
+
+    <string name="history_title">Our Story</string>
+    <string name="history_paragraph_1">INSERT TEXT HERE: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.</string>
+    <string name="history_paragraph_2">INSERT TEXT HERE: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.</string>
+    <string name="history_paragraph_3">INSERT TEXT HERE: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.</string>
+    <string name="history_paragraph_4">INSERT TEXT HERE: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.</string>
+
+    <string name="traditions_title">Our Traditions</string>
+    <string name="traditions_name">[INSERT TRADITION NAME]</string>
+    <string name="traditions_story">INSERT TRADITION STORY: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.</string>
+    <string name="traditions_date">[INSERT TRADITION DATE]</string>
+    <string name="traditions_time">[INSERT TRADITION TIME]</string>
+    <string name="traditions_location">[INSERT TRADITION LOCATION]</string>
+
+    <string name="prizes_title">Our Rewards</string>
+    <string name="prizes_item1">[INSERT PRIZE NAME 1]</string>
+    <string name="prizes_item1_details">Redeem after completing 5 Traditions</string>
+    <string name="prizes_item2">[INSERT PRIZE NAME 2]</string>
+    <string name="prizes_item2_details">Redeem after completing 10 Traditions</string>
+    <string name="prizes_item3">[INSERT PRIZE NAME 3]</string>
+    <string name="prizes_item3_details">Redeem after completing 15 Traditions</string>
+    <string name="prizes_item4">[INSERT PRIZE NAME 4]</string>
+    <string name="prizes_item4_details">Redeem after completing 20 Traditions</string>
+    <string name="prizes_item5">[INSERT PRIZE NAME 5]</string>
+    <string name="prizes_item5_details">Redeem at Commencement</string>
+    <string name="prizes_progress">Your Points: </string>
+
+    <string name="alumni_title">Our Advice</string>
+    <string name="alumni_name_title">Name: </string>
+    <string name="alumni_class_title">Class: </string>
+    <string name="alumni_name">INSERT ALUMNI NAME </string>
+    <string name="alumni_class">INSERT ALUMNI CLASS</string>
+    <string name="alumni_quote">INSERT ALUMNI QUOTE: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</string>
+
+    <string name="buildings_title">Our Island</string>
+    <string name="buildings_name">[INSERT BUILDING NAME]</string>
+    <string name="buildings_information">INSERT BUILDING INFO: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</string>
+
+
+    <string name="donors_title">Our Donors</string>
+    <string name="donors_name">INSERT DONOR NAME</string>
+    <string name="donors_information">INSERT DONORS INFO: Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</string>
+
+    <string name="profile_title">Your Story</string>
+    <string name="profile_name">[YOUR NAME]</string>
+    <string name="profile_class">[YOUR CLASS]</string>
+    <string name="profile_email">[YOUR EMAIL]</string>
+    <string name="profile_name_title">Name: </string>
+    <string name="profile_class_title">Class: </string>
+    <string name="profile_email_title">E-Mail: </string>
+    <string name="profile_traditions_count">X of X traditions completed!</string>
+    <string name="profile_traditions_progress">X traditions until your next reward!</string>
+    <string name="profile_traditions_tag">[PHOTO TRADITIONS TITLE]</string>
+
+    <string name="email_tag">Username: </string>
+    <string name="password_tag">Password: </string>
+
+    </resources>

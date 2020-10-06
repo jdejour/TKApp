@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_blue_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_library_books_blue_24dp"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_traditions"
+            android:icon="@drawable/ic_star_blue_24dp"
+            android:title="@string/menu_traditions" />
+        <item
+            android:id="@+id/nav_prizes"
+            android:icon="@drawable/ic_toys_blue_24dp"
+            android:title="@string/menu_prizes" />
+        <item
+            android:id="@+id/nav_buildings"
+            android:icon="@drawable/ic_account_balance_blue_24dp"
+            android:title="@string/menu_buildings" />
+        <item
+            android:id="@+id/nav_alumni"
+            android:icon="@drawable/ic_people_blue_24dp"
+            android:title="@string/menu_alumni" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_pin_blue_24dp"
+            android:title="@string/menu_profile" />>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_blue_24dp"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send_blue_24dp"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
